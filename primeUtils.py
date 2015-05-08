@@ -2,7 +2,7 @@ import sys
 import math
 
 # return list of all the primes up to primeCeiling, inclusive
-def seive(primeCeiling):
+def sieve(primeCeiling):
    numbers = [True for i in range(0, primeCeiling + 1)]
    maxCheckValue = math.floor(math.sqrt(primeCeiling))
 
